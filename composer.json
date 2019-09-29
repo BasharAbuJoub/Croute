@@ -1,0 +1,27 @@
+{
+    "name": "bashar/croute",
+    "description": "Set an active class for the current route name.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bashar Abu Joub",
+            "email": "bashar.abujoub@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bashar\\Croute\\": "src"
+        },
+        "files": [
+            "src/Http/SetActive.php"
+        ]
+    },    "extra": {
+
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
